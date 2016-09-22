@@ -1,0 +1,37 @@
+{
+  "name": "extract-contact",
+  "version": "1.0.0",
+  "description": "Extract contact information from string",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "extract-data-from-text": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alenoir/extract-contact.git"
+  },
+  "keywords": [
+    "extract",
+    "contact",
+    "information",
+    "url",
+    "phone",
+    "email",
+    "address"
+  ],
+  "author": "Antoine Lenoir <antoine.alenoir@gmail.com> (https://github.com/alenoir)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alenoir/extract-contact/issues"
+  },
+  "homepage": "https://github.com/alenoir/extract-contact#readme"
+}
