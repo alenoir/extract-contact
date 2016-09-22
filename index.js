@@ -7,7 +7,7 @@ function extractEmails(string) {
 }
 
 function extractUrls(string) {
-  var re = /(https?:\/\/(?:www\.|(?!www))[^\s!>!<\.]+\.[^\s!>!<]{2,}|www\.[^\s!>!<]+\.[^\s!>!<]{2,})/gi;
+  var re = /(https?:\/\/(?:www\.|(?!www))[^\s!>!<!"\.]+\.[^\s!>!<!"]{2,}|www\.[^\s!>!<]+\.[^\s!>!<!"]{2,})/gi;
   var urls = string.match(re) || [];
   return urls.filter(function(elem, pos) {
     return urls.indexOf(elem) == pos;
