@@ -3,18 +3,16 @@
   "version": "1.0.1",
   "description": "Extract contact information from string",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "dependencies": {
     "extract-data-from-text": "^1.0.1"
   },
   "devDependencies": {
+    "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
     "should": "^11.1.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- -R spec"
   },
   "repository": {
     "type": "git",
